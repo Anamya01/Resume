@@ -1,0 +1,181 @@
+/* Sacra...  */
+@import url('https://fonts.googleapis.com/css2?family=Stalemate&display=swap');
+/* This text is in Lucida Console */
+*{
+	font-family: Lucida Console,Lucida Sans Typewriter,monaco,Bitstream Vera Sans Mono,monospace; 
+}
+
+body{
+    background-color: #EFF5F5;
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    -webkit-margin-before: 0rem;
+    top: 200px;
+    color: #EB6440;
+    position: absolute;
+    top: 30%;
+    left: 41.3%;
+    font-family: 'Stalemate', cursive;
+    font-size: 5rem;
+
+
+}
+
+.page1{
+    background-color: #D6E4E5;
+    height: 45.25rem;
+    position: relative;
+    margin-bottom: 80px;
+}
+
+.page1 p{
+    position: absolute;
+    top: 45%;
+    left: 42.5%;
+}
+
+.page1 p::before{
+    content: '< ';
+}
+
+.page1 p::after{
+    content: '/>';
+}
+
+#wc{
+    position: absolute;
+    bottom: 10%;
+    left: 31%;
+    height: 250px;
+}
+
+.cloud1{
+    position: absolute;
+    top: 200px;
+    right: 220px;
+
+}
+
+.cloud2{
+    position: absolute;
+    left: 150px;
+    top: 400px;
+}
+
+.middle-container .profile #pro{
+    height: 145px;
+}
+
+.profile h2{
+    color: #EB6440;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.profile p{
+    color: rgb(137, 137, 137);
+    line-height: 2;
+}
+
+.profile{
+    margin-bottom: 100px;
+}
+
+hr{
+    border-style: dotted none none;
+    border-width: 7px;
+    width: 40px;
+    height: .5px;
+    border-color: rgb(219, 219, 219);
+}
+
+.skills{
+    margin: 100px 100px;
+}
+
+.skills h2{ 
+    color: #EB6440;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+}
+
+.skills h3{
+    color: #000000;
+}
+
+.skills img{
+    height: 145px;
+}
+
+.skills p{
+    color: rgb(137, 137, 137);
+    line-height: 2;
+}
+
+.skill-row{
+    width: 50%;
+    text-align: left;
+    margin: 100px auto 100px auto;
+}
+
+.pro1
+{   
+    float: left;
+    margin-right: 10%;
+}
+
+.pro2{
+    float: right;
+    margin-left: 10%;
+}
+
+.btn {
+    -webkit-border-radius: 9;
+    -moz-border-radius: 9;
+    border-radius: 5px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    font-size: 13px;
+    background: #ff8855;
+    padding: 8px 10px 8px 10px;
+    text-decoration: none;
+    word-spacing: 3px;
+}
+
+.btn:hover{
+    color: #434343;
+}
+
+.contact-me{
+    margin: 100px auto 100px auto;
+    width: 50%;
+    line-height: 2;
+}
+
+.contact-me p{
+    color: rgb(137, 137, 137);
+}
+
+.bottom-container{
+    background-color: #D6E4E5;
+    padding: 2%;
+    position: relative;
+}
+
+.bottom-container a{
+    text-decoration: none;
+    color: #EB6440;
+    padding: 3rem;
+}
+
+.bottom-container p{
+    color: rgb(137, 137, 137);
+    font-size: 0.8rem;
+}
+
+.bottom-container a:hover{
+    color: black;
+}
